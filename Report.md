@@ -428,7 +428,7 @@ I realised that these nice connecting paths could be used to create the corridor
 
 ![](img/corridors.png)
 
-### Conclusion
+## Conclusion
 I learned several important things during this coursework. Here are a few of them.
 
 **Level verification is powerful.** The same way a fitness function can steer the complex workings of a neural network, a function that can verify the integrity of a level can be used in all kinds of imaginative ways.
