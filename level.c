@@ -376,24 +376,10 @@ int main(int argument_count, char ** arguments) {
 
     Level level = {0};
 
-    fill_level(level, WALL);
     empty_level(level);
     scatter_placer(level, NULL);
 
-    // verified_scatter_placer(level, NULL);
-    // scatter_generator(level);
-    // bsp_generator(level);
-    // digger_generator(level, NULL);
-    basic_room_generator(level);
     reverse_verified_scatter_generator(level);
-    // basic_room_generator(level);
-    // reverse_entity_preserving_scatter_generator(level);
-    // reverse_verified_fill_generator(level);
-
-    // scatter_placer(level, NULL);
-    // verified_scatter_placer(level, NULL);
-
-
 
     write_level(stdout, level);
 }
