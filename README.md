@@ -14,3 +14,5 @@ The file [level.c](https://github.com/benhenshaw/game_ai_tech_demo/blob/master/l
 Although all of the code in the repo has been written by me, the files [common.c](https://github.com/benhenshaw/game_ai_tech_demo/blob/master/common.c), [editor.c](https://github.com/benhenshaw/game_ai_tech_demo/blob/master/editor.c), and [game.c](https://github.com/benhenshaw/game_ai_tech_demo/blob/master/game.c) have been submitted for other coursework and so should not be marked for this submission.
 
 The [sprite sheet](https://github.com/benhenshaw/game_ai_tech_demo/blob/master/sheet.bmp) is in the public domain.
+
+To play the game, you will need (SDL2)[https://libsdl.org/]. The level generator can be run separately, and has no external dependencies.
