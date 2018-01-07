@@ -202,3 +202,18 @@ bool load_level(FILE * file, Level level) {
 bool write_level(FILE * file, Level level) {
     return (bool)fwrite(level, sizeof(Tile), LEVEL_SIZE * LEVEL_SIZE, file);
 }
+
+void print_ascii_level(Level level) {
+    char entity_chars[] = " _#^E%*KEP";
+    for (int y = 0; y < LEVEL_SIZE; ++y) {
+        for (int x = 0; x < LEVEL_SIZE; ++x) {
+            Tile tile = level[x + y * LEVEL_SIZE];
+            int top_entity = 0;
+            for (int bit = 1; bit <= ENTITY_TYPE_COUNT; ++bit) {
+                if (tile & BIT(bit)) top_entity = bit;
+            }
+            printf("%c", entity_chars[top_entity]);
+        }
+        printf("\n");
+    }
+}

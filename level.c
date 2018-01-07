@@ -137,7 +137,7 @@ void basic_room_generator(Level level) {
 // Takes a level with entities already in it, and adds walls
 // at random, verifying that they do not make the level impossible.
 void reverse_verified_scatter_generator(Level level) {
-    float portion_of_level_to_be_wall = 4.0f;
+    float portion_of_level_to_be_wall = 3.0f;
     int wall_count = portion_of_level_to_be_wall * (LEVEL_SIZE * LEVEL_SIZE);
     int attempts = 32;
 
@@ -381,7 +381,11 @@ int main(int argument_count, char ** arguments) {
 
     reverse_verified_scatter_generator(level);
 
-    write_level(stdout, level);
+    // This shows a very basic ASCII representation of the level.
+    print_ascii_level(level);
+
+    // This will write out the level data for another program to read.
+    // write_level(stdout, level);
 }
 
 #endif
