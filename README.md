@@ -1,11 +1,9 @@
 # Level Generation for a Tile-Based Game
 for **Game AI Programming**.
 
-By Benedict Henshaw
-
-BSc Games Programming, Year 3
-
-Jan, 2018
+By Benedict Henshaw</br>
+BSc Games Programming, Year 3</br>
+Jan, 2018</br>
 
 Please read my [Report](https://github.com/benhenshaw/game_ai_tech_demo/blob/master/Report.md).
 
