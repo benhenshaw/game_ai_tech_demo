@@ -1,7 +1,7 @@
 # Level Generation for a Tile-Based Game
-**Benedict Henshaw**
-BSc Games Programming, Year 3
-Game AI Programming
+**Benedict Henshaw**</br>
+BSc Games Programming, Year 3</br>
+Game AI Programming</br>
 
 ## Overview
 This project is a demonstration of several level generation techniques for a simple tile-based game.
