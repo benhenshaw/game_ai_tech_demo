@@ -9,6 +9,8 @@ Jan, 2018
 
 Please read my [Report](https://github.com/benhenshaw/game_ai_tech_demo/blob/master/Report.md).
 
+And watch the [demo video](https://youtu.be/CLVmOceJYUs).
+
 The file [level.c](https://github.com/benhenshaw/game_ai_tech_demo/blob/master/level.c) has the level generation code in it.</br>
 You can build it using `cc level.c -o level`, and run it by typing `./level`.
 
